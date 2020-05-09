@@ -1,0 +1,335 @@
+*{
+
+margin: 0px;
+padding: 0px;
+font-family: 'Noto Serif', serif;
+}
+
+.main_container{
+  background-color:#ffffff;
+  width: 100%;
+  height: 3900px;
+  
+}
+
+
+.head{
+
+    width: 100%;
+    height: 50px;
+    background-color:#316dc3 ;
+    display: flex;
+}
+.paragraph{
+  margin-left: 420px;
+  padding-top: 15px;
+  color: #f7f8fa;
+}
+
+
+#para_b
+{
+  background-color:#316dc3;
+  margin-left: 80px;
+  margin-top: 12px;
+  width: 300px;
+
+}
+
+   
+  .para_buttons
+  {
+    background-color:#f5f4f6;
+    color: #6f9768;
+    width: 90px;
+    border: black 1px solid;
+    padding: 4px;
+    font-size: 11px;  
+  }
+
+.navigation_bar{
+  width:100%;
+  height:65px;
+ background-color: #f7f8fa ; 
+ display: flex;
+}
+
+.logo
+{
+  margin-left:100px;  
+}
+
+
+#saylani_logo{
+   padding-top: 15px;
+   margin-top: -5px;
+}
+
+.navbar
+  {
+    width: 100%;
+    background-color:#f7f8fa;
+    margin-left: 140px;
+
+ }
+.nav-item
+{
+  margin-left: 16px;
+  margin-top: 10px;
+  text-align: center;
+}
+ .nav-link
+  {
+   color: rgb(66, 63, 63) ;
+   font-size: 13.5px;
+   cursor: pointer;
+   
+  }
+
+.nav-link:hover
+  {
+   
+    background-color: #316dc3;
+    border-radius: 20px;
+    color: #f7f8fa;
+    width:120px;
+  }
+
+.dropdown:hover>.dropdown-menu
+{
+  display: block;
+}
+
+.dropdown-item
+{
+  color: rgb(66, 63, 63) ;
+  font-size: 13.5px;
+  cursor: pointer;
+  line-height: 1.9em;
+  
+}
+
+
+.marquee_wrapper
+{
+  margin-top: 15px;
+  width: 1200px;
+  height: 28px; 
+  background-color:#316dc3;
+}
+
+.marquee
+{
+  padding-top: 5px;
+  color:white;
+  font-size: 15px;
+}
+
+.middle_container
+{
+  margin-top: 0px;
+  height: 1800px;
+  background-color: #f7f8fa;
+
+}
+
+.h1-wrapper
+{
+  padding-top: 60px;
+  margin-top: 20px;
+  background-color: #f7f8fa;
+
+}
+
+.h1-logo
+{
+  background-color:#f7f8fa;
+  color: #9cb87d;
+  margin-right: 14px;
+}
+
+#para_div{
+  margin-top: -16px;
+  height: 800px;
+  background-color:#f7f8fa;
+}
+.para{
+  text-align: left ;
+  text-align: justify;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 30px 110px 0px 110px;
+  line-height: 1.9;
+  font-size: 15px;
+ color: #acacad;
+  
+}
+
+.container-fluid
+{
+
+  background-color:#2755e9; 
+  height: 300px; 
+  width: 100%; 
+  margin-top: -250px;
+    color: white;
+  
+}
+
+.image
+{
+  margin-top: 65px;
+  margin-left: 15px;
+}
+
+.counter-box
+{
+
+  font-size: 18px;
+}
+
+.counter-box .counter{
+
+  
+  font-size: 55px;
+}
+
+.h2-wrapper
+{
+  padding-top: 60px;
+  margin-top: -2px;
+  background-color:#f7f8fa;
+  height: 200px;
+  
+}
+
+.h2-logo
+{
+  background-color:#f7f8fa;
+  color: #9cb87d;
+  margin-right: 9px;
+
+}
+
+
+.card
+{
+/* padding:5px; */
+  margin-left: 75px;
+  margin-top: 18px;
+  box-shadow : 0px 6px 10px rgb(163, 160, 160);
+}
+
+.box_img
+{
+margin-top: 39px;
+text-align: center;
+}
+
+.card-text
+{
+  color: #6287c0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.lower_container
+{
+  background-color: #ffffff;
+   height: 900px;
+}
+
+.mission_upcoming
+{
+  background-color: #ffffff;
+  height: 150px;
+  width: 800px;
+  margin-right: 550px;
+}
+
+
+.saylani_missions_wrapper1
+{
+  background-color:#ffffff;
+  height: 150px;
+  width: 800px;
+  margin-top: -1px;
+  margin-right:550px ;
+  display: flex;
+}
+
+.missions{
+  background-color: #f7f8fa;
+  height: 70px;
+  width: 330px;
+  margin-left: 55px;
+  margin-top: 30px;
+  
+}
+
+.mission_image
+{
+  margin-top: 18px;
+  margin-right: 256px;
+  
+}
+ 
+.m
+{
+  color: #6d91c9;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: -30px;
+  margin-left: 75px;
+text-align: left;
+font-weight: bold;
+
+}
+
+.saylani_missions_wrapper2
+{
+  background-color:#ffffff;
+  height: 150px;
+  width: 800px;
+  margin-top: -49px;
+  margin-right:550px ;
+  display: flex;
+}
+
+
+
+.image_gallery_wrap
+{
+
+  margin-top: 20px;
+  background-color:#ffffff;
+}
+
+.h3-logo
+{
+  background-color:#ffffff;
+  color: #9cb87d;
+  margin-right: 9px;
+  
+
+}
+
+.images
+{
+  display: flex;
+  margin-left: 100px;
+}
+
+.footer_wrap
+{
+  /* background-color: thistle; */
+  background-color: #24272e;
+  height: 400px;
+}
+.footer{
+  font-size: large;
+color:#6a6b6f;
+text-align: left;
+padding-top: 100px;
+margin-left: 160px;
+}
